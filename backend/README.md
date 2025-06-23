@@ -1,0 +1,1 @@
+Depois de criada a .env, rode npm install e depois use o comando node index.js no terminal para rodar a aplicação
