@@ -8,7 +8,6 @@ API do Gemini: É necessária uma chave de API para que as funcionalidades de IA
 
 # Dentro do arquivo .env do backend
 GEMINI_API_KEY=SUA_CHAVE_API_AQUI
-Firebase Authentication: Credenciais para autenticação de usuários e serviços do Firebase.
 
 # Dentro do arquivo .env do frontend
 VITE_API_KEY=SUA_CREDENCIAL_AQUI
@@ -17,7 +16,6 @@ VITE_PROJECT_ID=SUA_CREDENCIAL_AQUI
 VITE_STORAGE_BUCKET=SUA_CREDENCIAL_AQUI
 VITE_MESSAGING_SENDER_ID=SUA_CREDENCIAL_AQUI
 VITE_APP_ID=SUA_CREDENCIAL_AQUI
-(Nota: Adapte os nomes das variáveis no exemplo acima para corresponderem exatamente ao que seu código espera.)
 
 ⚙️ Instalação
 Siga estes passos para configurar o ambiente de desenvolvimento.
@@ -25,7 +23,6 @@ Siga estes passos para configurar o ambiente de desenvolvimento.
 1. Clone o Repositório
 Primeiro, clone o repositório para a sua máquina local, caso ainda não tenha feito.
 
-Bash
 
 git clone https://URL-DO-SEU-REPOSITORIO.git
 cd nome-do-diretorio
@@ -35,8 +32,6 @@ Conforme mencionado nos pré-requisitos, crie os arquivos .env dentro das pastas
 3. Instale as Dependências
 Este comando instalará todas as dependências necessárias listadas no package.json de cada diretório. Você precisa executar o comando tanto para o frontend quanto para o backend.
 
-Bash
-
 # No diretório do frontend
 cd frontend
 npm install
@@ -44,7 +39,6 @@ npm install
 # No diretório do backend
 cd ../backend
 npm install
-(Nota: npm install é o comando completo e mais comum, sendo um alias para npm i.)
 
 ✨ Pronto para Rodar!
 Após a instalação, consulte as seções "Como Rodar o Frontend" e "Como Rodar o Backend" para iniciar os servidores de desenvolvimento.
